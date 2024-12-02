@@ -1,6 +1,6 @@
-# ICIMMI Website
+# IC-SICST Website
 
-This repository contains the code for the ICIMMI (INTERNATIONAL CONFERENCE ON INFORMATION MANAGEMENT & MACHINE INTELLIGENCE) website. The website is built using Next.js and styled with Tailwind CSS.
+This repository contains the code for the IC-SICST (International Conference on Sustainable & Intelligent Computing in Science and Technology) website. The website is built using Next.js and styled with Tailwind CSS.
 
 ## Technologies Used
 
