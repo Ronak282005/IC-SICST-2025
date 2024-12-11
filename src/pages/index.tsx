@@ -256,9 +256,9 @@ const Home = () => {
           <div className="lg:col-span-2 prose prose-sm sm:prose-base lg:prose-lg max-w-none">
             <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Preamble</h2>
             <p className="text-justify">
-              International Conference on Sustainable & Intelligent Computing in Science and Technology
+              International Conference on Sustainable &amp; Intelligent Computing in Science and Technology
               (ICSICST 2025) will be held at Poornima Institute
-              of Engineering & Technology, Jaipur, Rajasthan, India on
+              of Engineering &amp; Technology, Jaipur, Rajasthan, India on
               May 16-17, 2025.
               {<br />}
               {<br />}
@@ -266,10 +266,10 @@ const Home = () => {
               the development of intelligence across all areas of Information
               Management. The current state of the technology industry has
               permeated all branches of engineering, from Infrastructure
-              (Civil Engineering) and Machines & Automobiles (Mechanical
-              Engineering) to Power & Energy (Electrical Engineering),
-              Communication & Devices (Electronics & Communication), and
-              IT-based Applications & Services (Computer Engineering & IT),
+              (Civil Engineering) and Machines &amp; Automobiles (Mechanical
+              Engineering) to Power &amp; Energy (Electrical Engineering),
+              Communication &amp; Devices (Electronics &amp; Communication), and
+              IT-based Applications &amp; Services (Computer Engineering &amp; IT),
               particularly with the advent of AI, Machine Learning, and Deep
               Learning. Our goal for this conference is to gather academic and
               research contributions from experts working to provide
@@ -345,7 +345,7 @@ const Home = () => {
                   research discussions among scholars, scientists, engineers, and
                   students from all over the world.
                 </p>
-                Other Objectives of the conference include:{" "}
+                Other Objectives of the conference include:&nbsp;
                 <ul className="prose mx-4 my-4 list-disc text-justify text-sm sm:text-base">
                   <li>
                     Encouraging the proposal of new technologies, sharing of
@@ -379,14 +379,14 @@ const Home = () => {
                 <div>
                   <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">About Rajasthan</h2>
                   <p className="mb-6 sm:mb-8 text-justify">
-                    Rajasthan is the largest state of India by an area 3,42,239 sq km. It encompasses most of the area of the large, inhospitable Great Indian Desert (Thar Desert), which has an edge paralleling the Sutlej-Indus River valley along its border with Pakistan. The state has borders with Pakistan to the west, Gujrat to the southwest, Madhya Pradesh to the southeast, Uttar Pradesh & Haryana to the northeast & Punjab to the north. The glory of the state is retained by its majestic places, forts, monuments, vibrant culture, and rich heritage which draw innumerable tourists from across the globe.
+                    Rajasthan is the largest state of India by an area 3,42,239 sq km. It encompasses most of the area of the large, inhospitable Great Indian Desert (Thar Desert), which has an edge paralleling the Sutlej-Indus River valley along its border with Pakistan. The state has borders with Pakistan to the west, Gujrat to the southwest, Madhya Pradesh to the southeast, Uttar Pradesh &amp; Haryana to the northeast &amp; Punjab to the north. The glory of the state is retained by its majestic places, forts, monuments, vibrant culture, and rich heritage which draw innumerable tourists from across the globe.
                   </p>
                 </div>
 
                 <div>
                   <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">About Jaipur</h2>
                   <p className="mb-6 sm:mb-8 text-justify">
-                    Jaipur (Pink City of India), the capital of Rajasthan state in India, was founded in 1727 by Maharaj Sawai Jai Singh. It is an enormously admired tourist destination in Rajasthan and India. Its features of beautiful Architecture, Town Planning, Arts and Crafts, Culture, tourism have endowed it with uniqueness in India's urban character. Jaipur being capital of Rajasthan and one of the important cities of Golden Triangle is the focus of the socio-economic and political center of the State. Jaipur is an expression of the astronomical skills, living traditions, unique urban form and exemplary foresighted city planning of an 18th century city from India.
+                    Jaipur (Pink City of India), the capital of Rajasthan state in India, was founded in 1727 by Maharaj Sawai Jai Singh. It is an enormously admired tourist destination in Rajasthan and India. Its features of beautiful Architecture, Town Planning, Arts and Crafts, Culture, tourism have endowed it with uniqueness in India&apos;s urban character. Jaipur being capital of Rajasthan and one of the important cities of Golden Triangle is the focus of the socio-economic and political center of the State. Jaipur is an expression of the astronomical skills, living traditions, unique urban form and exemplary foresighted city planning of an 18th century city from India.
                   </p>
                 </div>
 
@@ -421,10 +421,10 @@ const Home = () => {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center">About Conference</h1>
             <h2 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-center">
-              1st International Conference on Sustainable & Intelligent Computing in Science and Technology (IC-SICST 2025)
+              1st International Conference on Sustainable &amp; Intelligent Computing in Science and Technology (IC-SICST 2025)
             </h2>
             <p className="mb-6 sm:mb-8 text-justify text-sm sm:text-base">
-              The IC-SICST 2025 conference aims to showcase the recent challenges and their solutions for the development of Sustainable & Intelligent Computing across all areas of science and technology. The International Conference on Sustainable & Intelligent Computing in Science and Technology (IC-SICST 2025) is a premier platform for researchers, academicians, industry professionals, and students to converge and exchange innovative ideas in the fields of sustainable and intelligent computing. This annual event brings together a diverse community of experts to discuss cutting-edge research, emerging trends, and real-world applications in various interdisciplinary areas of science and technology. Our goal for this conference is to gather academic and research contributions from experts working to provide intelligence to their machines and systems.
+              The IC-SICST 2025 conference aims to showcase the recent challenges and their solutions for the development of Sustainable &amp; Intelligent Computing across all areas of science and technology. The International Conference on Sustainable &amp; Intelligent Computing in Science and Technology (IC-SICST 2025) is a premier platform for researchers, academicians, industry professionals, and students to converge and exchange innovative ideas in the fields of sustainable and intelligent computing. This annual event brings together a diverse community of experts to discuss cutting-edge research, emerging trends, and real-world applications in various interdisciplinary areas of science and technology. Our goal for this conference is to gather academic and research contributions from experts working to provide intelligence to their machines and systems.
             </p>
           </div>
         </section>

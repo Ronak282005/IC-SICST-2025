@@ -8,7 +8,7 @@ function Partners() {
   return (
     <>
       <Head>
-        <title>Conference Partners - ICSICST - International Conference on Sustainable & Intelligent Computing in Science and Technology</title>
+        <title>Conference Partners - ICSICST - International Conference on Sustainable &amp;Intelligent Computing in Science and Technology</title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <Schedule />
@@ -48,8 +48,8 @@ function Partners() {
         <div className="bg-white rounded-xl shadow-md p-8 mb-8 hidden">
           <h2 className="text-2xl font-bold mb-6">Conference Partners</h2>
           <p className="text-gray-700 mb-8">
-            "This groundbreaking event marks a new era of innovation, collaboration, and knowledge exchange. 
-            Join us as we unveil a remarkable conference experience that will shape the future of technology and academia."
+            &ldquo;This groundbreaking event marks a new era of innovation, collaboration, and knowledge exchange. 
+            Join us as we unveil a remarkable conference experience that will shape the future of technology and academia.&rdquo;
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

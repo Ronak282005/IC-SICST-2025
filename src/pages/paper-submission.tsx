@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import ImportantDetails from "@/components/importantDetails";
 import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
@@ -11,7 +12,7 @@ function PaperSubmission() {
     <>
       <Head>
         <title>
-          Paper Submission - ICSICST - International Conference on Sustainable & Intelligent Computing in Science and Technology
+          Paper Submission - ICSICST - International Conference on Sustainable &amp; Intelligent Computing in Science and Technology
         </title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
@@ -45,7 +46,7 @@ function PaperSubmission() {
             <div className="bg-blue-50 rounded-lg p-4 sm:p-6">
               <p className="text-sm sm:text-base lg:text-lg text-gray-700">
                 <span className="font-bold">Note: </span>
-                At least one author must register for the paper to be included in the conference. Only registered & presented authors will be allowed to present papers and will be given the conference certificates. Only presented papers will be process for publication. Nobody will be allowed to make more than two presentations during the conference. This is done to ensure diversity and inclusivity of more active participants in the conference. 
+                At least one author must register for the paper to be included in the conference. Only registered &amp; presented authors will be allowed to present papers and will be given the conference certificates. Only presented papers will be process for publication. Nobody will be allowed to make more than two presentations during the conference. This is done to ensure diversity and inclusivity of more active participants in the conference. 
                 <span className="font-bold"> NO PAPER TO HAVE MORE THAN SIX AUTHORS AND SIX PAGES.</span>
               </p>
             </div>
