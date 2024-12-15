@@ -63,6 +63,19 @@ const callForPapers = () => {
               "Smart Society",
               "Information Security using Machine Learning",
               "Network Security using Machine Learning",
+              "Energy-efficient computing systems and algorithms",
+              "Green data centers and cloud computing",
+              "Sustainable software engineering and development",
+              "Environmental impact assessment of computing technologies",
+              "Artificial intelligence and machine learning",
+              "Natural language processing and computer vision",
+              "Robotics and automation",
+              "Big data analytics and data mining",
+              "Internet of Things (IoT) and smart systems",
+              "Healthcare and biomedical engineering",
+              "Agriculture and food security",
+              "Smart cities and urban planning",
+              "Applied Sciences",
             ].map((item, index) => (
               <div key={index} className="flex items-start space-x-2">
                 <div className="mt-1.5 h-2 w-2 rounded-full bg-blue-500 flex-shrink-0" />
@@ -158,16 +171,16 @@ const callForPapers = () => {
             <div className="flex flex-col space-y-2 text-sm sm:text-base text-gray-700">
               <p className="flex items-center space-x-2">
                 <span className="font-medium">Email:</span>
-                <a href="mailto:contact@icsicst.org" 
+                <a href="mailto:icsicst@poornima.org" 
                    className="text-blue-600 hover:text-blue-800 transition-colors">
-                  contact@icsicst.org
+                  icsicst@poornima.org
                 </a>
               </p>
               <p className="flex items-center space-x-2">
                 <span className="font-medium">Website:</span>
-                <a href="https://icsicst.org" 
+                <a href="https://icsicst.poornima.org" 
                    className="text-blue-600 hover:text-blue-800 transition-colors">
-                  www.icsicst.org
+                  icsicst.poornima.org
                 </a>
               </p>
             </div>
