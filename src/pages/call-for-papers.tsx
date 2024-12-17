@@ -97,7 +97,6 @@ const callForPapers = () => {
         "Advanced Materials And Composites",
         "Computational Materials Science",
         "Sensing/Functional Materials",
-        "Materials Characterization And Testing",
         "Biomaterials and Biomedical Engineering",
       ].map((item, index) => (
         <div key={index} className="flex items-start space-x-2">
