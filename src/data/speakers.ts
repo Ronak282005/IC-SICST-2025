@@ -6,27 +6,34 @@ export const speakers = [
         "id": "1",
         "national": false
     },
-    {
-        "name": "Prof. Dr. Patrick Cato",
-        "designation": "Professor, Big Data-Technologies, Technische Hochschule Ingolstadt",
-        "image": "/gallery/keynote_speakers/Patrick.png",
-        "id": "2",
-        "national": false
-    },
+    // {
+    //     "name": "Prof. Dr. Patrick Cato",
+    //     "designation": "Professor, Big Data-Technologies, Technische Hochschule Ingolstadt",
+    //     "image": "/gallery/keynote_speakers/Patrick.png",
+    //     "id": "2",
+    //     "national": false
+    // },
     {
         "name": " Dr. Avadhesh Yadav",
         "designation": "Deputy Director General, National Institute of Solar Energy, Gurugram",
         "image": "/gallery/keynote_speakers/Avadhesh Yadav.jpeg",
-        "id": "3",
+        "id": "2",
         "national": true
     },
     {
-        "name": "Dr. Laura Sanita",
-        "designation": "Associate Professor in the Department of Computing Sciences of Bocconi",
-        "image": "/gallery/keynote_speakers/Sanita.jpg",
-        "id": "1",
-        "national": false
+        "name": " Dr. Gaurav Kumar Bharti",
+        "designation": "Assistant Professor, Electronics and Communication Engineering, IIIT Bhopal",
+        "image": "/gallery/keynote_speakers/gaurav.jpg",
+        "id": "2",
+        "national": true
     },
+    // {
+    //     "name": "Dr. Laura Sanita",
+    //     "designation": "Associate Professor in the Department of Computing Sciences of Bocconi",
+    //     "image": "/gallery/keynote_speakers/Sanita.jpg",
+    //     "id": "1",
+    //     "national": false
+    // },
     // {
     //     "name": "Dr. Maria Ganzha",
     //     "designation": "Associate Professor",

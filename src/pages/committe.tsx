@@ -272,10 +272,10 @@ function Committe() {
     },
   ];
   const internationalAdvisoryCommittee = [
-    {
-      name : "Prof Dharm Singh",
-      designation: "Professor & UNESCO Chair Holder Secure on High-performance Computing for Higher Education and Research, Namibia University of Science and Technology",
-    },
+    // {
+    //   name : "Prof Dharm Singh",
+    //   designation: "Professor & UNESCO Chair Holder Secure on High-performance Computing for Higher Education and Research, Namibia University of Science and Technology",
+    // },
     {
       name : "Dr. Anshuman Kalla",
       designation: "Centre for Wireless Communications (CWC) University of Oulu, Finland",
@@ -295,6 +295,14 @@ function Committe() {
     {
       name : "Dr. Majusri Misra",
       designation: "Professor & Tier 1 Canada Research Chair (CRC) in Sustainable Biocomposites, Fellow RSC(UK), Fellow AIChE, Fellow SPE University of Guelph, Canada",
+    },
+    {
+      name : "Dr. Ramkumar Yadav",
+      designation: "Department of Biomedical, Surgical, and Dental Sciences, University of Milan,Italy",
+    },
+    {
+      name : "Dr. Habtamu Mohammed",
+      designation: "Deputy Scientific Director, Wollo University, Ethiopia",
     },
     // {
     //   name: "Aleksandra Mileva",
@@ -361,6 +369,14 @@ function Committe() {
     {
       name : "Dr. Sudeshna Chakraborty",
       designation: "Professor, Galgotias University, Greater Noida, India",
+    },
+    {
+      name : "Dr. Vinod Singh Yadav",
+      designation: "Asst. Professor, NIT Uttarakhand, India",
+    },
+    {
+      name: " Dr. Gaurav Kumar Bharti",
+      designation: "Assistant Professor, Electronics and Communication Engineering, IIIT Bhopal",
     },
     // {
     //   name: "Dr. Rajat Rastogi",
@@ -443,64 +459,40 @@ function Committe() {
 
   const organizingCommittee = [
     {
-      name: "Ms. Jayshree Surolia",
-      designation: "PIET, Jaipur",
+      name: "Dr. Amit Shrivastave",
+      designation: "Professor, Electrical Engineering",
     },
     {
-      name: "Ms. Ashima Tiwari",
-      designation: "PIET, Jaipur",
+      name: "Dr. Mukesh Chandra",
+      designation: "Professor, Engineering Physics",
     },
     {
-      name: "Dr. Saurabh Raj",
-      designation: "PIET, Jaipur",
+      name: "Dr. Nitin Mukesh Mathur",
+      designation: "Assoc. Professor, Machenical Engineering",
     },
     {
-      name: "Ms. Bersha Kumari",
-      designation: "PIET, Jaipur",
+      name: "Dr. Rajender Singh",
+      designation: "Assoc. Professor, Electrical Engineering",
     },
     {
-      name: "Ms. Shikha Gautam",
-      designation: "PIET, Jaipur",
+      name: "Dr. Aisha Rafi",
+      designation: "Assoc. Professor, Engineering Mathematics",
     },
     {
-      name: "Mr. Abhishek Dadhich",
-      designation: "PIET, Jaipur",
+      name: "Dr. Nupur Jain",
+      designation: "Assoc. Professor, Engineering Chemistry",
     },
     {
-      name: "Ms. Alka Rani",
-      designation: "PIET, Jaipur",
+      name: "Dr. Ashish Laddha",
+      designation: "Assoc. Professor, Electrical Engineering",
     },
     {
-      name: "Ms. Bhawna Kumari",
-      designation: "PIET, Jaipur",
+      name: "Dr. Krati Sharma",
+      designation: "Professor, Humanities",
     },
     {
-      name: "Ms. Smita Bisht",
-      designation: "PIET, Jaipur",
-    },
-    {
-      name: "Mr. Punit Kumawat",
-      designation: "PIET, Jaipur",
-    },
-    {
-      name: "Ms. Chanchal Tiwari",
-      designation: "PIET, Jaipur",
-    },
-    {
-      name: "Mr. Anurag Anand Dubey",
-      designation: "PIET, Jaipur",
-    },
-    {
-      name: "Mr. Mohnish Sachdeva",
-      designation: "PIET, Jaipur",
-    },
-    {
-      name: "Ms. Shefali Khandelwal",
-      designation: "PIET, Jaipur",
-    },
-    {
-      name: "Mr. Indra Kishor",
-      designation: "PIET, Jaipur",
+      name: "Dr. Sonia Kaur Bansel",
+      designation: "Professor, Humanities",
     },
   ];
 
@@ -620,6 +612,26 @@ function Committe() {
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Organizing Secretary</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {organizingSecretary.map((item, index) => (
+              <div 
+                key={index}
+                className="bg-gray-50 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"
+              >
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">
+                  {item.name}
+                </h3>
+                <p className="text-sm sm:text-base text-gray-600">
+                  {item.designation}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Organizing Commitee */}
+        <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Organizing Commitee</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+            {organizingCommittee.map((item, index) => (
               <div 
                 key={index}
                 className="bg-gray-50 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow duration-300"

@@ -34,55 +34,87 @@ const callForPapers = () => {
             & Deep Learning or in following broad areas, but not limited to:
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
-            {[
-              "Information Management",
-              "Information Security", 
-              "Information Processing Techniques",
-              "Information Interpretation",
-              "Big Data Analytics",
-              "Data Analytics",
-              "Automations and Robotics in Construction",
-              "Artificial Intelligence and Soft Computing",
-              "Intelligent Software Methodologies, Tools and Techniques",
-              "Artificial Intelligence and Pattern Recognition",
-              "Multimedia Analytics using Machine Learning",
-              "Soft Computing Techniques in Power Systems",
-              "Intelligent Power Distribution System",
-              "Computer and Intelligent Communication",
-              "Adaptive Wireless Communication",
-              "Wireless Sensor Networks",
-              "Network Security",
-              "Cloud Based Applications for Machine Learning",
-              "Healthcare and biomedical engineering",
-              "Intelligent Devices",
-              "IoT Based Automation",
-              "Industrial Automation over IoT",
-              "Industrial Automation over Robotics",
-              "Smart Systems",
-              "Smart Society",
-              "Information Security using Machine Learning",
-              "Network Security using Machine Learning",
-              "Energy-efficient computing systems and algorithms",
-              "Green data centers and cloud computing",
-              "Sustainable software engineering and development",
-              "Environmental impact assessment of computing technologies",
-              "Artificial intelligence and machine learning",
-              "Natural language processing and computer vision",
-              "Robotics and automation",
-              "Big data analytics and data mining",
-              "Internet of Things (IoT) and smart systems",
-              "Healthcare and biomedical engineering",
-              "Agriculture and food security",
-              "Smart cities and urban planning",
-              "Applied Sciences",
-            ].map((item, index) => (
-              <div key={index} className="flex items-start space-x-2">
-                <div className="mt-1.5 h-2 w-2 rounded-full bg-blue-500 flex-shrink-0" />
-                <p className="text-sm sm:text-base text-gray-700">{item}</p>
-              </div>
-            ))}
-          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+  {/* Block 1: Sustainable Computing */}
+  <div>
+    <h1 className="text-2xl">Sustainable Computing:</h1>
+    <div className="space-y-2 mt-2">
+      {[
+        "Energy-efficient computing systems and algorithms",
+        "Green data centers and cloud computing",
+        "Sustainable software engineering and development",
+        "Environmental impact assessment of computing technologies",
+      ].map((item, index) => (
+        <div key={index} className="flex items-start space-x-2">
+          <div className="mt-1.5 h-2 w-2 rounded-full bg-blue-500 flex-shrink-0" />
+          <p className="text-sm sm:text-base text-gray-700">{item}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  {/* Block 2: Intelligent Computing */}
+  <div>
+    <h1 className="text-2xl">Intelligent Computing:</h1>
+    <div className="space-y-2 mt-2">
+      {[
+        "Artificial intelligence and machine learning",
+        "Robotics and automation",
+        "Big data analytics and data mining",
+        "Internet of Things (IoT) and smart systems",
+      ].map((item, index) => (
+        <div key={index} className="flex items-start space-x-2">
+          <div className="mt-1.5 h-2 w-2 rounded-full bg-blue-500 flex-shrink-0" />
+          <p className="text-sm sm:text-base text-gray-700">{item}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  {/* Block 3: Embedded Systems And VLSI Designing */}
+  <div>
+    <h1 className="text-2xl">Embedded Systems And VLSI Designing:</h1>
+    <div className="space-y-2 mt-2">
+      {[
+        "Healthcare and biomedical engineering",
+        "Sensing Materials",
+        "Biomedical Electronics",
+        "Microcontrollers and Applications",
+      ].map((item, index) => (
+        <div key={index} className="flex items-start space-x-2">
+          <div className="mt-1.5 h-2 w-2 rounded-full bg-blue-500 flex-shrink-0" />
+          <p className="text-sm sm:text-base text-gray-700">{item}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  {/* Block 4: Engineering Materials */}
+  <div>
+    <h1 className="text-2xl">Engineering Materials:</h1>
+    <div className="space-y-2 mt-2">
+      {[
+        "Advanced Materials And Composites",
+        "Computational Materials Science",
+        "Sensing/Functional Materials",
+        "Materials Characterization And Testing",
+        "Biomaterials and Biomedical Engineering",
+      ].map((item, index) => (
+        <div key={index} className="flex items-start space-x-2">
+          <div className="mt-1.5 h-2 w-2 rounded-full bg-blue-500 flex-shrink-0" />
+          <p className="text-sm sm:text-base text-gray-700">{item}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
+
+            <div className="bg-blue-50 rounded-lg p-4 sm:p-6 mt-6">
+              <p className="text-sm sm:text-base lg:text-lg text-gray-700">
+                <span className="font-bold">Note: </span>
+                Session wise " Best Paper Award " along with certificates to all the authors.
+              </p>
+            </div>
         </div>
 
         {/* Why Attend Section */}
