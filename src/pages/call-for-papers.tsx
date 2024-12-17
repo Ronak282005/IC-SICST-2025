@@ -73,7 +73,7 @@ const callForPapers = () => {
 
   {/* Block 3: Embedded Systems And VLSI Designing */}
   <div>
-    <h1 className="text-2xl">Embedded Systems And VLSI Designing:</h1>
+    <h1 className="text-2xl">NEMS, MEMS, And VLSI Designing:</h1>
     <div className="space-y-2 mt-2">
       {[
         "Healthcare and biomedical engineering",
@@ -146,7 +146,7 @@ const callForPapers = () => {
 
         {/* Join Community Section */}
         <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Join the IC-SICST Community</h2>
+          {/* <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Join the IC-SICST Community</h2>
           <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8">
             If you are passionate about the future of technology and its positive impact on society, IC-SICS is the perfect platform for you. Join us to explore the frontiers of sustainable and intelligent computing and shape the future together.
           </p>
@@ -190,9 +190,9 @@ const callForPapers = () => {
                 </span>
               </a>
             ))}
-          </div>
+          </div> */}
 
-          <div className="mt-6 sm:mt-8 p-4 sm:p-6 bg-blue-50 rounded-lg">
+          <div className="sm:mt-8 p-4 sm:p-6 bg-blue-50 rounded-lg">
             <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-3 sm:mb-4">
               Stay Connected
             </h3>
