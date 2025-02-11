@@ -78,7 +78,7 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <RiPhoneFill className="text-gray-400" />
                 <a href="tel:+91-9896017351" className="text-gray-300 hover:text-white">
-                  +91-9896017351
+                  +91-8118874724
                 </a>
               </div>
               <div className="flex items-center space-x-2">
