@@ -94,7 +94,7 @@ const callForPapers = () => {
 
   {/* Block 4: Engineering Materials */}
   <div>
-    <h1 className="text-2xl">Emerging Material Science:/h1>
+    <h1 className="text-2xl">Emerging Material Science:</h1>
     <div className="space-y-2 mt-2">
       {[
         "Nanomaterials",
