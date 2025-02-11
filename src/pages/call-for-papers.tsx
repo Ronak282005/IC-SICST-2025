@@ -37,13 +37,14 @@ const callForPapers = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
   {/* Block 1: Sustainable Computing */}
   <div>
-    <h1 className="text-2xl">Sustainable Computing:</h1>
+    <h1 className="text-2xl">Intelligent Systems:</h1>
     <div className="space-y-2 mt-2">
       {[
-        "Energy-efficient computing systems and algorithms",
-        "Green data centers and cloud computing",
-        "Sustainable software engineering and development",
-        "Environmental impact assessment of computing technologies",
+        "Artificial Intelligence & Machine Learning",
+        "Image Processing and Pattern Recognition",
+        "Robotics and automation",
+        "Big data analytics and data mining",
+        "Internet of Things (IoT) and smart systems"
       ].map((item, index) => (
         <div key={index} className="flex items-start space-x-2">
           <div className="mt-1.5 h-2 w-2 rounded-full bg-blue-500 flex-shrink-0" />
@@ -55,13 +56,14 @@ const callForPapers = () => {
 
   {/* Block 2: Intelligent Computing */}
   <div>
-    <h1 className="text-2xl">Intelligent Computing:</h1>
+    <h1 className="text-2xl">Sustainable Computing:</h1>
     <div className="space-y-2 mt-2">
       {[
-        "Artificial intelligence and machine learning",
-        "Robotics and automation",
-        "Big data analytics and data mining",
-        "Internet of Things (IoT) and smart systems",
+        "Complex systems: modelling and simulation",
+        "Sustainable communication and security",
+        "Energy-efficient computing systems and algorithms",
+        "Green data centers and cloud computing",
+        "Responsible & Re-usable Computing"
       ].map((item, index) => (
         <div key={index} className="flex items-start space-x-2">
           <div className="mt-1.5 h-2 w-2 rounded-full bg-blue-500 flex-shrink-0" />
@@ -73,13 +75,14 @@ const callForPapers = () => {
 
   {/* Block 3: Embedded Systems And VLSI Designing */}
   <div>
-    <h1 className="text-2xl">NEMS, MEMS, And VLSI Designing:</h1>
+    <h1 className="text-2xl">Advancements in Science and Engineering:</h1>
     <div className="space-y-2 mt-2">
       {[
-        "Healthcare and biomedical engineering",
-        "Sensing Materials",
-        "Biomedical Electronics",
-        "Microcontrollers and Applications",
+        "Quantum Computing",
+        "Medical Electronics and Astrophysics",
+        "Digital Materials Design and Materials Informatics",
+        "Flexible Electronics & VLSI",
+        "Semiconductor Technology"
       ].map((item, index) => (
         <div key={index} className="flex items-start space-x-2">
           <div className="mt-1.5 h-2 w-2 rounded-full bg-blue-500 flex-shrink-0" />
@@ -91,13 +94,14 @@ const callForPapers = () => {
 
   {/* Block 4: Engineering Materials */}
   <div>
-    <h1 className="text-2xl">Engineering Materials:</h1>
+    <h1 className="text-2xl">Emerging Material Science:/h1>
     <div className="space-y-2 mt-2">
       {[
-        "Advanced Materials And Composites",
-        "Computational Materials Science",
-        "Sensing/Functional Materials",
-        "Biomaterials and Biomedical Engineering",
+        "Nanomaterials",
+        "Superconductors",
+        "Advanced polymers",
+        "Biomaterials & Biotechnology",
+        "Computational Material Science"
       ].map((item, index) => (
         <div key={index} className="flex items-start space-x-2">
           <div className="mt-1.5 h-2 w-2 rounded-full bg-blue-500 flex-shrink-0" />
