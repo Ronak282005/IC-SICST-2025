@@ -63,6 +63,10 @@ const Footer = () => {
               Join us for the 1st International Conference on Sustainable & Intelligent Computing 
               in Science and Technology at PIET.
             </p>
+            {/* <p className="text-gray-300 text-xs">
+              Join us for the 1st International Conference on Sustainable & Intelligent Computing 
+              in Science and Technology at PIET.
+            </p> */}
           </div>
 
           {/* Contact Info */}
@@ -109,10 +113,8 @@ const Footer = () => {
           <div className="text-xs text-gray-400">
             <p>© 2025 ICSICST. All rights reserved.</p>
             <p className="mt-1">
-              Designed by{" "}
+              Created by{" "}
               {[
-                { name: "Diya Mehta", href: "https://github.com/DiyaMehta60" },
-                { name: "Ayush Jangid", href: "https://github.com/codeseker" },
                 { name: "Ronak", href: "https://github.com/Ronak282005" }
               ].map((dev, index) => (
                 <React.Fragment key={dev.name}>
@@ -124,7 +126,7 @@ const Footer = () => {
                   >
                     {dev.name}
                   </a>
-                  {index < 2 && ", "}
+                  {index < 2 && ""}
                 </React.Fragment>
               ))}
             </p>
