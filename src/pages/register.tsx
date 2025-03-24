@@ -40,34 +40,69 @@ const Register = () => {
               <tbody>
                 {[
                   {
-                    category: "Faculty Member/ Phd. Scholar (International Professional Membership)",
+                    category: "Faculty Member (International Professional Membership)",
+                    early: "INR 11,000",
+                    late: "INR 11,500"
+                  },
+                  {
+                    category: "Faculty Member (International Professional Non-Membership)",
                     early: "INR 12,000",
                     late: "INR 12,500"
                   },
                   {
-                    category: "Faculty Member/ Phd. Scholar(International Professional Membership) With International co-Author",
-                    early: "INR 11,000/10,000",
-                    late: "INR 11,500/10,500"
+                    category: "Faculty With International Author",
+                    early: "$ 11,000",
+                    late: "$ 11,500"
                   },
                   {
-                    category: "Faculty International Author and Member (International Professional Membership)",
-                    early: "$ 150",
-                    late: "$ 160"
-                  },
-                  {
-                    category: "International Author Non-Member (International Professional Membership)",
+                    category: "International Author (International Professional Membership)",
                     early: "$180",
                     late: "$190"
                   },
                   {
-                    category: "Corporate/Industry Professional",
-                    early: "INR 13,000",
-                    late: "INR 13,500"
+                    category: "Phd. Scholar (International Professional Membership)",
+                    early: "INR 11,000",
+                    late: "INR 11,500"
                   },
                   {
-                    category: "PG/UG Student",
-                    early: "INR 8,000/7,000",
-                    late: "INR 8,500/7,500"
+                    category: "Phd. Scholar (International Professional Non-Membership)",
+                    early: "INR 12,000",
+                    late: "INR 12,500"
+                  },
+                  {
+                    category: "Phd. Scholar With International Author",
+                    early: "INR 11,000",
+                    late: "INR 11,500"
+                  },
+                  {
+                    category: "PG Student (Non Membership)",
+                    early: "INR 8,000",
+                    late: "INR 8,500"
+                  },
+                  {
+                    category: "PG Student (Membership)",
+                    early: "INR 7,000",
+                    late: "INR 7,500"
+                  },
+                  {
+                    category: "PG Student With International Author",
+                    early: "INR 7,000",
+                    late: "INR 7,500"
+                  },
+                  {
+                    category: "UG Student (Non Membership)",
+                    early: "INR 7,000",
+                    late: "INR 7,500"
+                  },
+                  {
+                    category: "UG Student (Membership)",
+                    early: "INR 6,000",
+                    late: "INR 6,500"
+                  },
+                  {
+                    category: "UG Student With International Author",
+                    early: "INR 6,000",
+                    late: "INR 6,500"
                   },
                   {
                     category: "Attendee",
