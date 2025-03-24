@@ -61,8 +61,8 @@ const Register = () => {
                   },
                   {
                     category: "Phd. Scholar (International Professional Membership)",
-                    early: "INR 11,000",
-                    late: "INR 11,500"
+                    early: "INR 10,000",
+                    late: "INR 10,500"
                   },
                   {
                     category: "Phd. Scholar (International Professional Non-Membership)",
@@ -71,8 +71,8 @@ const Register = () => {
                   },
                   {
                     category: "Phd. Scholar With International Author",
-                    early: "INR 11,000",
-                    late: "INR 11,500"
+                    early: "INR 10,000",
+                    late: "INR 10,500"
                   },
                   {
                     category: "PG Student (Non Membership)",
