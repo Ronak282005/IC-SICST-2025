@@ -33,41 +33,41 @@ const Register = () => {
               <thead className="text-white uppercase bg-[#034EA2]">
                 <tr>
                   <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">Category</th>
-                  <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">On or Before April 15, 2025</th>
-                  <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">After April 30, 2025</th>
+                  <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">On or Before April 30, 2025</th>
+                  <th scope="col" className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4">After May 05, 2025</th>
                 </tr>
               </thead>
               <tbody>
                 {[
                   {
                     category: "Faculty Member/ Phd. Scholar (International Professional Membership)",
-                    early: "INR 8,000",
-                    late: "INR 9,000"
+                    early: "INR 12,000",
+                    late: "INR 12,500"
                   },
                   {
-                    category: "Faculty (International Professional Membership) With International co-Author",
-                    early: "INR 7,500",
-                    late: "INR 8,500"
+                    category: "Faculty Member/ Phd. Scholar(International Professional Membership) With International co-Author",
+                    early: "INR 11,000/10,000",
+                    late: "INR 11,500/10,500"
                   },
                   {
                     category: "Faculty International Author and Member (International Professional Membership)",
-                    early: "$ 120",
-                    late: "$ 150"
+                    early: "$ 150",
+                    late: "$ 160"
                   },
                   {
                     category: "International Author Non-Member (International Professional Membership)",
-                    early: "$150",
-                    late: "$200"
+                    early: "$180",
+                    late: "$190"
                   },
                   {
                     category: "Corporate/Industry Professional",
-                    early: "INR 9,000",
-                    late: "INR 10,000"
+                    early: "INR 13,000",
+                    late: "INR 13,500"
                   },
                   {
                     category: "PG/UG Student",
-                    early: "INR 7,000",
-                    late: "INR 8,000"
+                    early: "INR 8,000/7,000",
+                    late: "INR 8,500/7,500"
                   },
                   {
                     category: "Attendee",
