@@ -31,7 +31,7 @@ const dates = [
   },
   {
     label: "Conference Dates",
-    date: "May 16-17, 2025",
+    date: "16-17 May 2025",
     color: "#201E43",
   },
 ];
