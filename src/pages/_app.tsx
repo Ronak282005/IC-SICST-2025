@@ -10,7 +10,6 @@ import { Footer, Navbar, MessageFlashSlider } from "components";
 
 import { SessionProvider } from "next-auth/react";
 import { Analytics } from "@vercel/analytics/react";
-import Image from "next/image";
 import { TailwindIndicator } from "@/components/ui/tailwind-indicator";
 
 type ComponentWithLayout = AppProps & {
