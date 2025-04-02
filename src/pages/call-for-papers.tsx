@@ -227,12 +227,12 @@ const callForPapers = () => {
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Important Dates</h2>
           <div className="space-y-3 sm:space-y-4">
             {[
-              { event: "Full Paper Submission", date: "March 25, 2025" },
-              { event: "Notification of Acceptance", date: "April 10, 2025" },
-              { event: "Revised Paper Submission", date: "April 15, 2025" },
-              { event: "Early Bird Registration", date: "April 15, 2025" },
-              { event: "Late Registration", date: "April 30, 2025" },
-              { event: "Conference Dates", date: "May 16-17, 2025" },
+              { event: "Full Paper Submission", date: "26 April 2025" },
+              { event: "Notification of Acceptance", date: "02 May 2025" },
+              { event: "Revised Paper Submission", date: "06 May 2025" },
+              { event: "Early Bird Registration", date: "06 May 2025" },
+              { event: "Late Registration", date: "10 May 2025" },
+              { event: "Conference Dates", date: "16-17 May 2025" },
             ].map((item, index) => (
               <div key={index} className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b pb-2">
                 <span className="text-sm sm:text-base font-medium text-gray-700 mb-1 sm:mb-0">{item.event}</span>
