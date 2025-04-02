@@ -19,6 +19,52 @@ function PaperSubmission() {
       <br />
 
       <main className="bg-gradient-to-b from-blue-50 to-white px-4 sm:px-6 lg:px-8">
+        <div></div>
+        {/* Downloads Section */}
+        <div className="bg-white rounded-lg sm:rounded-xl shadow-lg p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 lg:mb-10 flex flex-col items-center text-center max-w-lg mx-auto">
+          {/* <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Downloads</h2>
+          <div className="flex flex-col space-y-3 sm:space-y-4">
+            {[
+              { text: "Paper Template Doc", href: "#" },
+              { text: "Paper Template Latex", href: "#" },
+            ].map((item, index) => (
+              <Link
+                key={index}
+                href={item.href}
+                className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-blue-600 text-white text-sm sm:text-base rounded-lg hover:bg-blue-700 transition-colors duration-300 w-fit"
+              >
+                <svg
+                  className="mr-2 h-4 w-4 sm:h-5 sm:w-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                </svg>
+                {item.text}
+              </Link>
+            ))}
+          </div> */}
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-6 sm:mb-8">
+           Ready to Submit Your Paper?
+            </h2>
+            <div className="flex flex-col space-y-4 sm:space-y-5">
+              <Link
+                href="https://cmt3.research.microsoft.com/ICSICST2025/Submission/Index"
+                className="inline-flex items-center px-5 sm:px-7 py-3 sm:py-4 bg-blue-600 text-white text-sm sm:text-base font-medium rounded-xl hover:bg-blue-700 transition-all duration-300 shadow-md hover:shadow-lg w-fit"
+              >
+                <svg
+                  className="mr-2 h-5 w-5 sm:h-6 sm:w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                </svg>
+                Submit Paper Now
+              </Link>
+            </div>
+          </div>
         {/* Guidelines Section */}
         <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Paper Submission Guidelines</h1>
@@ -91,51 +137,7 @@ function PaperSubmission() {
           </p>
         </div>
 
-        {/* Downloads Section */}
-        <div className="bg-white rounded-lg sm:rounded-xl shadow-lg p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 lg:mb-10 flex flex-col items-center text-center max-w-lg mx-auto">
-          {/* <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Downloads</h2>
-          <div className="flex flex-col space-y-3 sm:space-y-4">
-            {[
-              { text: "Paper Template Doc", href: "#" },
-              { text: "Paper Template Latex", href: "#" },
-            ].map((item, index) => (
-              <Link
-                key={index}
-                href={item.href}
-                className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-blue-600 text-white text-sm sm:text-base rounded-lg hover:bg-blue-700 transition-colors duration-300 w-fit"
-              >
-                <svg
-                  className="mr-2 h-4 w-4 sm:h-5 sm:w-5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-                </svg>
-                {item.text}
-              </Link>
-            ))}
-          </div> */}
-          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-6 sm:mb-8">
-           Ready to Submit Your Paper?
-            </h2>
-            <div className="flex flex-col space-y-4 sm:space-y-5">
-              <Link
-                href="https://cmt3.research.microsoft.com/ICSICST2025/Submission/Index"
-                className="inline-flex items-center px-5 sm:px-7 py-3 sm:py-4 bg-blue-600 text-white text-sm sm:text-base font-medium rounded-xl hover:bg-blue-700 transition-all duration-300 shadow-md hover:shadow-lg w-fit"
-              >
-                <svg
-                  className="mr-2 h-5 w-5 sm:h-6 sm:w-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-                </svg>
-                Submit Paper Now
-              </Link>
-            </div>
-          </div>
+        
 
         <Sponsored />
       </main>
