@@ -6,27 +6,27 @@ import Marquee from "../marquee";
 const dates = [
   {
     label: "Full Paper Submission Date", 
-    date: "March 25, 2025",
+    date: "26 April 2025",
     color: "#7AB2B2",
   },
   {
     label: "Notification of Acceptance",
-    date: "April 10, 2025", 
+    date: "02 May 2025", 
     color: "#006A67",
   },
   {
     label: "Revised Paper Submission",
-    date: "April 15, 2025",
+    date: "06 May 2025",
     color: "#F96E2A",
   },
   {
     label: "Early Bird Registration",
-    date: "April 15, 2025",
+    date: "06 May 2025",
     color: "#133E87",
   },
   {
     label: "Late Registration",
-    date: "April 30, 2025",
+    date: "10 May 2025",
     color: "#7E60BF",
   },
   {

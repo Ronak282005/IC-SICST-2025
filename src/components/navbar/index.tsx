@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { AiFillCaretDown } from "react-icons/ai";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import * as path from "path";
 import Image from "next/image";
 
 const Dropdown = ({
