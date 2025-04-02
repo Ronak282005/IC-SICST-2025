@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import ImportantDetails from "@/components/importantDetails";
 import Schedule from "@/components/schedule";
 import Sponsored from "@/components/sponsored";
 import Head from "next/head";
