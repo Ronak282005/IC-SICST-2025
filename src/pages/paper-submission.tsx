@@ -19,7 +19,6 @@ function PaperSubmission() {
       <br />
 
       <main className="bg-gradient-to-b from-blue-50 to-white px-4 sm:px-6 lg:px-8">
-        <div></div>
         {/* Downloads Section */}
         <div className="bg-white rounded-lg sm:rounded-xl shadow-lg p-6 sm:p-8 lg:p-10 mb-6 sm:mb-8 lg:mb-10 flex flex-col items-center text-center max-w-lg mx-auto">
           {/* <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Downloads</h2>
