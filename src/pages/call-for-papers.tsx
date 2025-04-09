@@ -140,15 +140,15 @@ const callForPapers = () => {
         </div>
 
         {/* Impact Section */}
-        <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+        {/* <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">The Impact of IC-SICST</h2>
           <p className="text-sm sm:text-base lg:text-lg text-gray-700">
             IC-SICST 2025 plays a crucial role in promoting sustainable and intelligent computing practices. By fostering interdisciplinary collaboration and knowledge sharing, the conference contributes to the development of innovative solutions that address global challenges such as climate change, energy consumption, and social inequality.
           </p>
-        </div>
+        </div> */}
 
         {/* Join Community Section */}
-        <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+        {/* <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8"> */}
           {/* <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Join the IC-SICST Community</h2>
           <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 sm:mb-8">
             If you are passionate about the future of technology and its positive impact on society, IC-SICS is the perfect platform for you. Join us to explore the frontiers of sustainable and intelligent computing and shape the future together.
@@ -195,7 +195,7 @@ const callForPapers = () => {
             ))}
           </div> */}
 
-          <div className="sm:mt-8 p-4 sm:p-6 bg-blue-50 rounded-lg">
+          {/* <div className="sm:mt-8 p-4 sm:p-6 bg-blue-50 rounded-lg">
             <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-3 sm:mb-4">
               Stay Connected
             </h3>
@@ -223,7 +223,7 @@ const callForPapers = () => {
         </div>
 
         {/* Important Dates Section */}
-        <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+        {/* <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Important Dates</h2>
           <div className="space-y-3 sm:space-y-4">
             {[
@@ -240,17 +240,17 @@ const callForPapers = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Contact Section */}
-        <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
+        {/* <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6">Contact Information</h2>
           <div className="space-y-2 text-sm sm:text-base text-gray-700">
             <p className="font-medium">Dr. Bhanu Pratap</p>
             <p>Email: Bhanu.pratap@poornima.org</p>
             <p>Phone: +91 8118874724</p>
           </div>
-        </div>
+        </div> */}  
 
         <Sponsored />
       </main>
