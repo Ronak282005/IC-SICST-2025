@@ -71,20 +71,21 @@ function PaperSubmission() {
           
         {/* Guidelines Section */}
         <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Paper Submission Guidelines</h1>
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Paper Submission Guidelines And Publication Ethics</h1>
           
           <div className="space-y-4 sm:space-y-6">
             <div>
               <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold mb-3 sm:mb-4">Instructions:</h2>
               <div className="space-y-2 sm:space-y-3">
                 {[
-                  "Kindly use the Full Paper Template provided by the journal/website (in the Download tab) for formatting your paper.",
-                  "The paper should be original and should not have been submitted anywhere/published else or be under review for any journal or other conferences.",
+                  "Papers submitted to the conference should report your original work, unpublished before. They could be either experimental or theoretical and must not be under consideration for publication elsewhere. We firmly believe that ethical conduct is the most essential virtue of any academics. Any act of plagiarism or self-plagiarism is unacceptable and academic misconduct will not be tolerated. If an author is found to commit an act of plagiarism (more than 10%), we will reject the article submitted or delete the article from the final publications.",
+                  "Fabrication of data is an egregious departure from the expected norms of scientific conduct, as is the selective reporting of data with the intent to mislead or deceive, as well as the theft of data or research results from others.",
+                  "Kindly use the Full Paper Template provided above.",
                   "The plagiarism should be less than 10 percentage. Organizers will check Plagiarism through Turnitin.",
                   "The full article must be submitted as a MS Word file in DOC or DOCX format.",
                   "Before submitting your paper, please ensure that the English used is clear, concise and coherent. This is especially important if English is not your first language.",
                 ].map((item, index) => (
-                  <div key={index} className="flex items-start space-x-2 sm:space-x-3">
+                  <div key={index} className="flex items-start space-x-2 sm:space-x-3"> 
                     <div className="mt-2 h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-blue-500 flex-shrink-0" />
                     <p className="text-sm sm:text-base lg:text-lg text-gray-700">{item}</p>
                   </div>
@@ -95,8 +96,9 @@ function PaperSubmission() {
             <div className="bg-blue-50 rounded-lg p-4 sm:p-6">
               <p className="text-sm sm:text-base lg:text-lg text-gray-700">
                 <span className="font-bold">Note: </span>
-                At least one author must register for the paper to be included in the conference. Only registered &amp; presented authors will be allowed to present papers and will be given the conference certificates. Only presented papers will be process for publication. Nobody will be allowed to make more than two presentations during the conference. This is done to ensure diversity and inclusivity of more active participants in the conference. 
-                <span className="font-bold"> NO PAPER TO HAVE MORE THAN SIX AUTHORS AND SIX PAGES.</span>
+                At least one author must register for the paper to be included in the conference. Only registered &amp; presented authors will be allowed to present papers and will be given the conference certificates. Only presented papers will be recommended for publication. Nobody will be allowed to make more than two presentations during the conference. This is done to ensure diversity and inclusivity of more active participants in the conference. 
+                <span className="font-bold"> NO PAPER TO HAVE MORE THAN SIX AUTHORS.</span>
+                <span className="font-bold"> THE PAPER SHALL NOT BE LESS THAN FOUR PAGES AND MORE THAN 10 PAGES.</span>
               </p>
             </div>
           </div>
