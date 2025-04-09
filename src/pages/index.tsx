@@ -161,22 +161,22 @@ const Home = () => {
             </div>
 
             <div className="flex space-x-3 sm:space-x-5 text-xl sm:text-2xl text-[#034EA2]">
-              <Link
+              {/* <Link
                 href={"https://www.piet.poornima.org/"}
                 aria-label={"icimmi twitter"}
               >
                 <RiTwitterFill
                   className={"grow-on-hover cursor-pointer hover:text-sky-500"}
                 />
-              </Link>
-              <Link href={"tel:+91-9896017351"} aria-label={"icimmi phone"}>
+              </Link> */}
+              <Link href={"tel:+91-8118874724"} aria-label={"icimmi phone"}>
                 <RiPhoneFill
                   className={
                     "grow-on-hover cursor-pointer hover:text-emerald-500"
                   }
                 />
               </Link>
-              <Link
+              {/* <Link
                 href={"https://www.piet.poornima.org/"}
                 aria-label={"icimmi facebook"}
               >
@@ -185,10 +185,10 @@ const Home = () => {
                     "grow-on-hover cursor-pointer hover:text-indigo-700"
                   }
                 />
-              </Link>
+              </Link> */}
               <Link
-                href={"mailto:icimmi@poornima.org"}
-                aria-label={"icimmi mail"}
+                href={"mailto:icsicst@poornima.org"}
+                aria-label={"icsicst mail"}
               >
                 <RiMailFill
                   className={
@@ -417,7 +417,7 @@ const Home = () => {
         </section>
 
         {/* About Conference Section */}
-        <section className="bg-white rounded-xl shadow-md p-4 sm:p-8 my-8 sm:my-12">
+        {/* <section className="bg-white rounded-xl shadow-md p-4 sm:p-8 my-8 sm:my-12">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center">About Conference</h1>
             <h2 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-center">
@@ -427,7 +427,7 @@ const Home = () => {
               The IC-SICST 2025 conference aims to showcase the recent challenges and their solutions for the development of Sustainable &amp; Intelligent Computing across all areas of science and technology. The International Conference on Sustainable &amp; Intelligent Computing in Science and Technology (IC-SICST 2025) is a premier platform for researchers, academicians, industry professionals, and students to converge and exchange innovative ideas in the fields of sustainable and intelligent computing. This annual event brings together a diverse community of experts to discuss cutting-edge research, emerging trends, and real-world applications in various interdisciplinary areas of science and technology. Our goal for this conference is to gather academic and research contributions from experts working to provide intelligence to their machines and systems.
             </p>
           </div>
-        </section>
+        </section> */}
 
         {/* Visitor Counter */}
         <div className="bg-blue-50 rounded-xl p-4 sm:p-8 text-center my-8 sm:my-12">
