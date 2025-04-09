@@ -459,7 +459,7 @@ function Committe() {
 
   const organizingCommittee = [
     {
-      name: "Dr. Amit Shrivastave",
+      name: "Dr. Amit Shrivastava",
       designation: "Professor, Electrical Engineering",
     },
     {
@@ -491,14 +491,18 @@ function Committe() {
       designation: "Professor, Humanities",
     },
     {
-      name: "Dr. Sonia Kaur Bansel",
+      name: "Dr. Sonia Kaur Bansal",
       designation: "Professor, Humanities",
     },
   ];
 
   const localAdvisoryCommite = [
+    // {
+    //   name : "Dr. Gautam Singh",
+    //   designation : "Registrar, PIET, Jaipur, India",
+    // },
     {
-      name : "Dr. Gautam Singh",
+      name : "Dr. Balwan",
       designation : "Registrar, PIET, Jaipur, India",
     },
     {
@@ -510,7 +514,7 @@ function Committe() {
       designation : "HOD, AI&DS, PIET, Jaipur, India",
     },
     {
-      name : "Dr. Payal Bansl",
+      name : "Dr. Payal Bansal",
       designation : "HOD, IOT, PIET Jaipur, India",
     },
   ]
