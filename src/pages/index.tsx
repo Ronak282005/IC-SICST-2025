@@ -254,7 +254,7 @@ const Home = () => {
         {/* Preamble Section */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8">
           <div className="lg:col-span-2 prose prose-sm sm:prose-base lg:prose-lg max-w-none">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Preamble</h2>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">About Conference</h2>
             <p className="text-justify">
               International Conference on Sustainable &amp; Intelligent Computing in Science and Technology
               (ICSICST 2025) will be held at Poornima Institute
@@ -263,8 +263,8 @@ const Home = () => {
               {<br />}
               {<br />}
               The ICSICST-2025 conference aims to showcase the latest trends in
-              the development of intelligence across all areas of Information
-              Management. The current state of the technology industry has
+              the development of intelligence across all areas of Science and technology .
+              The current state of the technology industry has
               permeated all branches of engineering, from Infrastructure
               (Civil Engineering) and Machines &amp; Automobiles (Mechanical
               Engineering) to Power &amp; Energy (Electrical Engineering),
@@ -339,8 +339,8 @@ const Home = () => {
                   The main objective of this conference is to provide a platform
                   for researchers, academicians, industry professionals, and
                   students to showcase their expertise and knowledge in the latest
-                  developments and strategies in the field of Information
-                  Management and Machine Learning. It is expected to receive a
+                  developments and strategies in the field of Science and technology.
+                  It is expected to receive a
                   large number of high-quality submissions and foster innovative
                   research discussions among scholars, scientists, engineers, and
                   students from all over the world.
@@ -393,7 +393,7 @@ const Home = () => {
                 <div>
                   <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">About Poornima Institute</h2>
                   <p className="mb-6 sm:mb-8 text-justify">
-                    Poornima Institute of Engineering and Technology, Jaipur is a premier institution in Engineering Education, established in the academic year 2007. It is affiliated to RTU, Kota and approved by AICTE and it is recognized under UGC 2(f). It is the learning home to a total of 1700 students and is committed to impart best technical skills in students through its six specializations of engineering at UG level.
+                    Poornima Institute of Engineering and Technology, Jaipur is a premier institution in Engineering Education, established in the academic year 2007. It is affiliated to RTU, Kota and approved by AICTE and it is recognized under UGC 2(f) and  NAAC A Accredited. It is the learning home to a total of 1700 students and is committed to impart best technical skills in students through its six specializations of engineering at UG level.
                     Being ranked 4th in annual QIV ranking by RTU, Kota. Institute is accredited by NAAC since 2019. PIET is the 1st Institution across India to offer B. Tech CSE in Indian language under NEP 2020. PIET has been sponsored and funded by AICTE for IDEA Lab first in Rajasthan. PIET got overall Diamond rating in QS i-Gauge. PIET is funded for Rs. 1.7 crore in the last five years from various agencies from agencies like TEQIP III, AICTE, NITTTR etc. PIET has been awarded a center of excellence for Advanced Digital Manufacturing by RTU, Kota that facilitates Skill Development, Hands on learning and innovation.
                   </p>
                 </div>
