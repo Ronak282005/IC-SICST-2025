@@ -106,6 +106,11 @@ function Index() {
       enabled: true,
     },
     {
+      title: "Keynote Speakers",
+      link: "/speakers",
+      enabled: true,
+    },
+    {
       title: "Contact Us",
       link: "/contact",
       enabled: true,
@@ -115,11 +120,6 @@ function Index() {
     //   link: "/special-session",
     //   enabled: true,
     // },
-    {
-      title: "Keynote Speakers",
-      link: "/speakers",
-      enabled: true,
-    },
     // {
     //   title: "Archive",
     //   dropdown: [

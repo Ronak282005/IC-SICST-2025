@@ -494,6 +494,10 @@ function Committe() {
       name: "Dr. Sonia Kaur Bansal",
       designation: "Professor, Humanities",
     },
+    {
+      name: "Dr. Prince Dawar",
+      designation: "Assoc. Professor, Humanities",
+    },
   ];
 
   const localAdvisoryCommite = [
