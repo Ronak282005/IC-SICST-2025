@@ -8,7 +8,7 @@ function Partners() {
   return (
     <>
       <Head>
-        <title>Conference Partners - ICSICST - International Conference on Sustainable &amp;Intelligent Computing in Science and Technology</title>
+        <title>Contact Us - ICSICST - International Conference on Sustainable &amp;Intelligent Computing in Science and Technology</title>
         <link rel="icon" href="/gallery/favicon.ico" />
       </Head>
       <Schedule />
@@ -35,11 +35,15 @@ function Partners() {
               </svg>
             </div>
             <h1 className="text-3xl font-bold text-gray-900 mb-4">
-              Partners Coming Soon
+              Contact Us
             </h1>
             <p className="text-gray-600 text-lg max-w-2xl">
-              We are currently finalizing partnerships with leading International institutions. 
-              Check back soon to learn about our esteemed conference partners.
+            Email : icsicst@poornima.org <br /> <br /> <br />
+            Dr. Bhanu Pratap <br />
+            Associate Professor, <br />
+            Poornima Institute of Engineering & Technology, <br />
+            Email: bhanu.pratap@poornima.org <br />
+            Phone: +91 8118874724
             </p>
           </div>
         </div>

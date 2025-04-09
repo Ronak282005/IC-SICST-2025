@@ -106,8 +106,8 @@ function Index() {
       enabled: true,
     },
     {
-      title: "Conference Partners",
-      link: "/partners",
+      title: "Contact Us",
+      link: "/contact",
       enabled: true,
     },
     // {
