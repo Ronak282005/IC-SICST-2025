@@ -18,7 +18,7 @@ const Speakers = () => {
         <div className="max-w-7xl mx-auto">
           <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-6 sm:mb-8 lg:mb-12">
-              Keynote Speakers
+             Proposed Keynote Speakers
               <div className="h-1 w-16 sm:w-20 lg:w-24 bg-blue-600 mx-auto mt-2 sm:mt-3 lg:mt-4 rounded-full"></div>
             </h1>
 
