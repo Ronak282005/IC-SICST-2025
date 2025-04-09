@@ -55,6 +55,8 @@ function Publications() {
               <div className="space-y-2 sm:space-y-3">
                 {[
                   "Scopus Indexed Conference Proceedings.",
+                  "Book Series which shall be sent for Indexing after publication.",
+                  "IJTE ISTE Journal (UGC)",
                   " For UG/PG Authors, only extended papers followed by blind review will be considered for publication.",
                 ].map((item, index) => (
                   <div key={index} className="flex items-start space-x-2 sm:space-x-3"> 
