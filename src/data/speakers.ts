@@ -1,30 +1,37 @@
 export const speakers = [
     {
-        "name": "Dr. Manjusri Misra",
-        "designation": "Professor & Tier 1 Canada Research Chair (CRC) in Sustainable Biocomposites, Fellow RSC(UK), Fellow AIChE, Fellow SPE University of Guelph, Canada",
-        "image": "/gallery/keynote_speakers/Manjusri_Misra_.png",
+        "name": " Prof. Madya Ts. Dr. Ferda Ernawan",
+        "designation": "Associate Professor, Faculty of Computing, Universiti Malaysia Pahang Al-Sultan Abdullah, Pahang, Malaysia",
+        "image": "/gallery/keynote_speakers/Ferda.png",
         "id": "1",
         "national": false
     },
-    // {
-    //     "name": "Prof. Dr. Patrick Cato",
-    //     "designation": "Professor, Big Data-Technologies, Technische Hochschule Ingolstadt",
-    //     "image": "/gallery/keynote_speakers/Patrick.png",
-    //     "id": "2",
-    //     "national": false
-    // },
+    {
+        "name": "Prof. Dr. Patrick Cato",
+        "designation": "Professor, Big Data-Technologies, Technische Hochschule Ingolstadt",
+        "image": "/gallery/keynote_speakers/Patrick.png",
+        "id": "2",
+        "national": false
+    },
+    {
+        "name": "Dr. Manjusri Misra",
+        "designation": "Professor & Tier 1 Canada Research Chair (CRC) in Sustainable Biocomposites, Fellow RSC(UK), Fellow AIChE, Fellow SPE University of Guelph, Canada",
+        "image": "/gallery/keynote_speakers/Manjusri_Misra_.png",
+        "id": "3",
+        "national": false
+    },
     {
         "name": " Dr. Avadhesh Yadav",
         "designation": "Deputy Director General, National Institute of Solar Energy, Gurugram",
         "image": "/gallery/keynote_speakers/Avadhesh Yadav.jpeg",
-        "id": "2",
+        "id": "4",
         "national": true
     },
     {
         "name": " Dr. Gaurav Kumar Bharti",
         "designation": "Assistant Professor, Electronics and Communication Engineering, IIIT Bhopal",
         "image": "/gallery/keynote_speakers/gaurav.jpg",
-        "id": "2",
+        "id": "5",
         "national": true
     },
     // {
