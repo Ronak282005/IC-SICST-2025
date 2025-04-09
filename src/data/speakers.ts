@@ -34,6 +34,13 @@ export const speakers = [
         "id": "5",
         "national": true
     },
+    {
+        "name": " Dr. Anshuman Kalla",
+        "designation": "Professor (Computer Engineering), Uka Tarsadia University, Gujarat",
+        "image": "/gallery/keynote_speakers/anshu.jpg",
+        "id": "6",
+        "national": true
+    },
     // {
     //     "name": "Dr. Laura Sanita",
     //     "designation": "Associate Professor in the Department of Computing Sciences of Bocconi",
