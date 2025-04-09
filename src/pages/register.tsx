@@ -122,11 +122,11 @@ const Register = () => {
             </table>
           </div>
 
-          <div className="bg-blue-50 rounded-lg p-4 sm:p-6 mt-6 sm:mt-8">
+          {/* <div className="bg-blue-50 rounded-lg p-4 sm:p-6 mt-6 sm:mt-8">
             <p className="text-sm sm:text-base lg:text-lg text-gray-800 font-bold">
               NO PAPER TO HAVE MORE THAN SIX AUTHORS AND SIX PAGES.
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* Account Details Section */}
