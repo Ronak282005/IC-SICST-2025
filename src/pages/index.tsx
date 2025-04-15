@@ -262,18 +262,7 @@ const Home = () => {
               May 16-17, 2025.
               {<br />}
               {<br />}
-              The ICSICST-2025 conference aims to showcase the latest trends in
-              the development of intelligence across all areas of Science and technology .
-              The current state of the technology industry has
-              permeated all branches of engineering, from Infrastructure
-              (Civil Engineering) and Machines &amp; Automobiles (Mechanical
-              Engineering) to Power &amp; Energy (Electrical Engineering),
-              Communication &amp; Devices (Electronics &amp; Communication), and
-              IT-based Applications &amp; Services (Computer Engineering &amp; IT),
-              particularly with the advent of AI, Machine Learning, and Deep
-              Learning. Our goal for this conference is to gather academic and
-              research contributions from experts working to provide
-              intelligence to their machines and systems.
+              The IC-SICST 2025 conference aims to showcase the recent challenges and their solutions for the development of Sustainable & Intelligent Computing across all areas of science and technology. The International Conference on Sustainable & Intelligent Computing in Science and Technology (IC-SICST 2025) is a premier platform for researchers, academicians, industry professionals, and students to converge and exchange innovative ideas in the fields of sustainable and intelligent computing. This annual event brings together a diverse community of experts to discuss cutting-edge research, emerging trends, and real-world applications in various interdisciplinary areas of science and technology. Our goal for this conference is to gather academic and research contributions from experts working to provide intelligence to their machines and systems.
               {<br />}
               {<br />}
             </p>
