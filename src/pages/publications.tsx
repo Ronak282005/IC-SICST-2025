@@ -56,7 +56,6 @@ function Publications() {
                 {[
                   "AIPCP Scopus Indexed Conference Proceedings",
                   "CRC Press Book Series which shall be sent for Indexing after publication",
-                  "Book Series which shall be sent for Indexing after publication.",
                   "IJTE ISTE Journal (UGC)",
                   " For UG/PG Authors, only extended papers followed by blind review will be considered for publication.",
                 ].map((item, index) => (
