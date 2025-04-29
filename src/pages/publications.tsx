@@ -55,7 +55,7 @@ function Publications() {
               <div className="space-y-2 sm:space-y-3">
                 {[
                   "AIPCP* Scopus Indexed Conference Proceedings",
-                  "CRC Press Book Series which shall be sent for Indexing after publication",
+                  "CRC Press Conference Proceedings which shall be sent for Indexing after publication",
                   "IJTE ISTE Journal (UGC)",
                   " For UG/PG Authors, only extended papers followed by blind review will be considered for publication.",
                 ].map((item, index) => (
