@@ -51,8 +51,8 @@ const Register = () => {
                   },
                   {
                     category: "Faculty With International Author",
-                    early: "$ 11,000",
-                    late: "$ 11,500"
+                    early: "INR 11,000",
+                    late: "INR 11,500"
                   },
                   {
                     category: "International Author (International Professional Membership)",
