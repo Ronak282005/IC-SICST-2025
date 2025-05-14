@@ -41,8 +41,13 @@ function Schedule() {
     <div className="bg-gradient-to-b from-blue-50 via-white to-blue-50 py-4 pb-10">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-4">
+          <h2 className="text-lg font-bold text-blue-600 mb-3"> 
+            <a href="/pdfs/ICSICST2025-Conference-Schedule.pdf" target="_blank" rel="noopener noreferrer">
+              Click Here To See Full ICSICST2025 Conference Schedule
+            </a>
+          </h2>
           <h2 className="text-lg font-bold text-gray-900">
-            Important Dates
+            Important Dates :
           </h2>
           <div className="h-0.5 w-12 bg-blue-600 mx-auto mt-1"></div>
         </div>
