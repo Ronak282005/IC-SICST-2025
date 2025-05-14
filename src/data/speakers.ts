@@ -2,7 +2,7 @@ export const speakers = [
     {
         "name": " Prof. (Dr.) Somitra Kumar Sanadhya",
         "designation": "Professor Department of CSE, IIT Jodhpur",
-        "image": "/gallery/keynote_speakers/Somitra.webp.png",
+        "image": "/gallery/keynote_speakers/Somitra.webp",
         "id": "1",
         "national": true
     },
