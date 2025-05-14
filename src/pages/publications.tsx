@@ -17,7 +17,7 @@ function Publications() {
       <Schedule />
       <br />
 
-      <main className="bg-gradient-to-b from-blue-50 to-white px-8">
+      <main className="bg-gradient-to-b from-blue-50 to-white px-8 pt-7">
         {/* Coming Soon Section */}
         {/* <div className="bg-white rounded-xl shadow-md p-8 mb-8">
           <div className="flex flex-col items-center justify-center min-h-[300px] text-center"> */}

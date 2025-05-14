@@ -534,7 +534,7 @@ function Committe() {
       <Schedule />
       <br />
 
-      <main className="bg-gradient-to-b from-blue-50 to-white px-4 sm:px-6 lg:px-8">
+      <main className="bg-gradient-to-b from-blue-50 to-white px-4 sm:px-6 lg:px-8 pt-7">
         {/* Honorary Patron Section */}
         <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Honorary Patron</h2>

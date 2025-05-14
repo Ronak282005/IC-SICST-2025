@@ -14,7 +14,7 @@ const Speakers = () => {
       <Schedule />
       <br />
 
-      <main className="bg-gradient-to-b from-blue-50 to-white px-4 sm:px-6 lg:px-8 min-h-screen">
+      <main className="bg-gradient-to-b from-blue-50 to-white px-4 sm:px-6 lg:px-8 min-h-screen pt-7">
         <div className="max-w-7xl mx-auto">
           <div className="bg-white rounded-lg sm:rounded-xl shadow-md p-4 sm:p-6 lg:p-8 mb-4 sm:mb-6 lg:mb-8">
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-6 sm:mb-8 lg:mb-12">
