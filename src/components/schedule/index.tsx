@@ -52,7 +52,7 @@ function Schedule() {
           <h2 className="text-base sm:text-lg font-bold text-gray-900">
             Important Dates :
           </h2>
-          <div className="h-0.5 w-12 bg-blue-600 mx-auto mt-2"></div>
+          <div className="h-0.5 w-12 bg-blue-600 mx-auto"></div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
