@@ -42,13 +42,13 @@ const Speakers = () => {
                     
                     <div className="absolute bottom-2 sm:bottom-3 lg:bottom-4 left-2 sm:left-3 lg:left-4 transform translate-y-4 transition-all duration-300">
                       {!speaker.national ? (
-                        <div className="inline-block bg-blue-100 bg-opacity-90 backdrop-blur-sm rounded-full px-3 sm:px-4 py-1.5 sm:py-2">
+                        <div className="inline-block bg-blue-100 bg-opacity-90 backdrop-blur-sm rounded-full px-3 sm:px-4 py-1.5 sm:py-2 mb-2">
                           <p className="text-xs sm:text-sm font-medium text-blue-800">
                             International Speaker
                           </p>
                         </div>
                       ) : (
-                        <div className="inline-block bg-white bg-opacity-90 backdrop-blur-sm rounded-full px-3 sm:px-4 py-1.5 sm:py-2">
+                        <div className="inline-block bg-white bg-opacity-90 backdrop-blur-sm rounded-full px-3 sm:px-4 py-1.5 sm:py-2 mb-2">
                           <p className="text-xs sm:text-sm font-medium text-[#034EA2]">
                             National Speaker
                           </p>
