@@ -38,7 +38,7 @@ const dates = [
 
 function Schedule() {
   return (
-    <div className="bg-gradient-to-b from-blue-50 via-white to-blue-50 py-4">
+    <div className="bg-gradient-to-b from-blue-50 via-white to-blue-50 py-4 pb-10">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-4">
           <h2 className="text-lg font-bold text-gray-900">
