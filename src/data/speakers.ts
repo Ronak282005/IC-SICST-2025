@@ -1,25 +1,32 @@
 export const speakers = [
     {
+        "name": " Prof. (Dr.) Somitra Kumar Sanadhya",
+        "designation": "Professor Department of CSE, IIT Jodhpur",
+        "image": "/gallery/keynote_speakers/Somitra.webp.png",
+        "id": "1",
+        "national": true
+    },
+    {
         "name": " Prof. Madya Ts. Dr. Ferda Ernawan",
         "designation": "Associate Professor, Faculty of Computing, Universiti Malaysia Pahang Al-Sultan Abdullah, Pahang, Malaysia",
         "image": "/gallery/keynote_speakers/Ferda.png",
-        "id": "1",
+        "id": "2",
         "national": false
     },
     {
         "name": "Prof. Dr. Patrick Cato",
         "designation": "Professor, Big Data-Technologies, Technische Hochschule Ingolstadt",
         "image": "/gallery/keynote_speakers/Patrick.png",
-        "id": "2",
-        "national": false
-    },
-    {
-        "name": "Dr. Manjusri Misra",
-        "designation": "Professor & Tier 1 Canada Research Chair (CRC) in Sustainable Biocomposites, Fellow RSC(UK), Fellow AIChE, Fellow SPE University of Guelph, Canada",
-        "image": "/gallery/keynote_speakers/Manjusri_Misra_.png",
         "id": "3",
         "national": false
     },
+    // {
+    //     "name": "Dr. Manjusri Misra",
+    //     "designation": "Professor & Tier 1 Canada Research Chair (CRC) in Sustainable Biocomposites, Fellow RSC(UK), Fellow AIChE, Fellow SPE University of Guelph, Canada",
+    //     "image": "/gallery/keynote_speakers/Manjusri_Misra_.png",
+    //     "id": "3",
+    //     "national": false
+    // },
     {
         "name": " Dr. Avadhesh Yadav",
         "designation": "Deputy Director General, National Institute of Solar Energy, Gurugram",
