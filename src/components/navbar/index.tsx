@@ -149,6 +149,11 @@ function Index() {
   ];
 
   const [menuOpen, setMenu] = useState(false);
+  
+  const closeMenu = () => {
+    setMenu(false);
+  };
+
   const menuToggle = () => {
     setMenu(!menuOpen);
   };
@@ -233,6 +238,7 @@ function Index() {
                     <Link 
                       href={link.link}
                       className="text-gray-300 hover:text-white transition-colors duration-200 text-sm uppercase tracking-wider"
+                      onClick={closeMenu}
                     >
                       {link.title}
                       <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
